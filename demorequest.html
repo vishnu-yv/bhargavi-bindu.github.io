@@ -1,0 +1,1218 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Schedule your personalized free demo with us. Learn why 1000+ companies around the globe are using Interview Mocha as their trusted assessment partner for successful hiring.">
+    <meta name="keywords">
+    <title>Demo Request</title>
+
+    <script src="/cdn-cgi/apps/head/9HO6AXGtbW07OKyqct4P03PsLmA.js"></script><link rel="shortcut icon" type="image/x-icon" href="/Content/images/interview-mocha-logo/favicon/favicon.png" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="css/layout.css?0.12.3" rel="stylesheet" type="text/css" />
+    <link href="css/media.min.css?0.12.3" rel="stylesheet" type="text/css" />
+    <link href="css/styleguide.min.css?0.12.3" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49981892-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-49981892-1');
+    </script>
+    <!-- Global site tag (gtag.js) - AdWords: 971610277 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-971610277"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); } gtag('js', new Date());
+        gtag('config', 'AW-971610277');
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics blog.interviewmocha.com -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-64714059-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-64714059-1');
+    </script>
+    <!-- Hotjar Tracking Code for https://www.interviewmocha.com -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 1654302, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+    <style>
+        .select2-container--default .select2-selection--single .select2-selection__placeholder {
+            color: #8b8b8b !important;
+            font-size: 14px !important;
+        }
+        .flag-text {
+            margin-left: 8px;
+        }
+        #select2-Country-container {
+            font-size: 14px;
+            color: grey;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <section class="demo-bg-blue-try">
+        <div class="container">
+            <div class="">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-md-12 margin-bottom-2rem">   
+
+                  <h2>eAssesment</h2>
+				
+								
+							</div>
+           
+                     
+                        <div class="col-md-6 col-lg-6">
+                            <div class="demo-left-block">
+
+                                <h1 class="h1-sm margin-bottom-3rem">Get a personalized demo of eAssesment</h1>
+                                <p class="d-none d-md-block">
+                                    <b>Understand how eAssesment Skill Testing Solution can help your organization:</b>
+                                </p>
+                                <ul class="demo-li margin-bottom-1rem d-none d-md-block">
+                                    <li>Assess quickly using 1500+ pre-built skill tests, customized tests & tailor-made tests</li>
+                                    <li>Administer tests effectively using advanced cheating prevention & other techniques</li>
+                                    <li>Build great candidate experience during assessments</li>
+                                    <li>Drive Talent Acquisition through intelligent reports & analytics</li>
+                                </ul>
+                                <div class="demo-customers-list d-none d-md-block">
+                                    <label class="margin-bottom-10"><b>Trusted By:</b></label>
+      
+                                </div>
+                            </div>
+                        </div>
+
+                         <script src="Scripts/jquery-1.12.4.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+    
+    <script>
+        $(function () {
+            var serverSideError = $("#serverError");
+            $("#frmGetADemo").on("submit", function (e) {
+
+                e.preventDefault();
+                //if ($.trim($("#AssessmentChallenges").val()) === "") {
+                //    $("#errorAssessmentChallenges").html("This field is required.");
+                //    $("#AssessmentChallenges").addClass('error-input-border-red');
+                //    return false;
+                //} else {
+                //    $("#errorAssessmentChallenges").html("");
+                //    $("#AssessmentChallenges").removeClass('error-input-border-red');
+                //}
+                $("#frmGetADemoSubmit").prop("disabled", true);
+                serverSideError.addClass('process-messge').html('Processing...');
+                var GetADemo = {};
+
+                GetADemo.FirstName = $.trim($("#FirstName").val());
+                GetADemo.LastName = $.trim($("#LastName").val());
+                GetADemo.EmailId = $.trim($("#WorkEmail").val());
+                GetADemo.PhoneNumber = $.trim($("#Phone").val());
+                //GetADemo.CompanyName = $.trim($("#CompanyName").val());
+                //GetADemo.CompanySize = $.trim($("#CompanySize").val());
+                GetADemo.JobTitle = $.trim($("#JobTitle").val());
+                GetADemo.Country = $.trim($("#select2-Country-container").text());
+                GetADemo.CustomerChallenges = $.trim($("#AssessmentChallenges").val());
+
+               // captureSetup();
+
+                $.ajax({
+                    type: "POST",
+                    url: "/GetADemo/Register",
+                    data: JSON.stringify(GetADemo),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+
+                        $('#frmGetADemoSubmit').prop('disabled', false);
+                        if (data === 0) {
+                            serverSideError.removeClass('process-messge');
+                            serverSideError.html('An error occured. Please try again.');
+                        }
+                        else if (data.ErrorId === 2) {
+                            serverSideError.removeClass('process-messge');
+                            serverSideError.html('');
+                            //serverSideError.html('We need your work e-mail. Do not worry, we don’t spam.');
+                            $('#errorWorkEmail').html('We need your work e-mail. Do not worry, we don’t spam.');
+                        }
+                        else if (data.ErrorId === 1) {
+                            $('#errorWorkEmail').html('');
+                            window.location.href = "/schedule-demo-thank-you?Name=" + data.FirstName + "&Email=" + data.EmailId;
+
+                        }
+                        if (data === 3) {
+                            serverSideError.removeClass('process-messge');
+                            serverSideError.html('Please tick on "I\'m not a robot"');
+                        }
+                    }, error: function (xhr) {
+                        $('#frmGetADemoSubmit').prop('disabled', false);
+                        serverSideError.removeClass('process-messge');
+                        serverSideError.html('An error occured. Please try again.');
+                    }
+                });
+            });//form submit end
+
+            //text box validation
+            $('input[type=text]').on('invalid change', function (e) {
+                e.preventDefault();
+
+                serverSideError.html('');
+                var Id = this.id;
+                if (Id == "FirstName") {
+                    if ($("#FirstName").val() == "") {
+                        $("#errorFirstName").html("First Name is required.");
+                        $("#FirstName").addClass('error-input-border-red');
+
+                    } else {
+                        $("#errorFirstName").html("");
+                        $("#FirstName").removeClass('error-input-border-red');
+                    }
+                } else {
+                    if (this.validity.valueMissing) {
+                        $('#error' + Id).html($(this).attr('data-error') + ' is required.');
+                        $('#' + Id).addClass('error-input-border-red');
+                    }
+                    else {
+                        $('#error' + Id).html('');
+                        $('#' + Id).removeClass('error-input-border-red');
+                    }
+                }
+            });
+
+            //email validation
+            $('input[type=email]').on('invalid change', function (e) {
+                e.preventDefault();
+                serverSideError.html('');
+                var Id = this.id;
+
+                if (this.validity.valueMissing) {
+                    $('#error' + Id).html('Work Email is required.');
+                    $('#' + Id).addClass('error-input-border-red');
+                }
+                else if (this.validity.typeMismatch) {
+                    $('#error' + Id).html('Enter a valid email address.');
+                    $('#' + Id).addClass('error-input-border-red');
+                }
+                else if (this.validity.patternMismatch) {
+                    $('#error' + Id).html('Enter a valid email address.');
+                    $('#' + Id).addClass('error-input-border-red');
+                }
+                else {
+                    $('#error' + Id).html('');
+                    $('#' + Id).removeClass('error-input-border-red');
+                }
+            });
+
+            //phone validation
+            $('input[type=tel]').on('invalid change', function (e) {
+                e.preventDefault();
+
+                serverSideError.html('');
+                var Id = this.id;
+                if (this.validity.valueMissing) {
+                    $('#error' + Id).html('Phone Number is required.');
+                    $('#' + Id).addClass('error-input-border-red');
+                }
+                else {
+                    $('#error' + Id).html('');
+                    $('#' + Id).removeClass('error-input-border-red');
+                }
+            });
+
+            //select validation
+            $('select').on('invalid change', function (e) {
+
+                e.preventDefault();
+                serverSideError.html('');
+                var Id = this.id;
+                if (this.validity.valueMissing) {
+                    // $('#error' + Id).html('This field is required');
+                    $('#' + Id).addClass('error-input-border-red');
+                    if (Id == "Country") {
+                        $('#error' + Id).html('Country is required.');
+                        $('.select2-container--default').css('border-radius', '5px');
+                        $('.select2-container--default').css('border', '1px solid red');
+                    }
+                    else if (Id == "CompanySize") {
+                        $('#error' + Id).html('Company Size is required.');
+                    }
+                    else {
+                        $('#error' + Id).html('Job Title is required.');
+                    }
+                }
+                else {
+                    $('#error' + Id).html('');
+                    $('#' + Id).removeClass('error-input-border-red');
+                    if (Id == "Country") {
+
+                        $('.select2-container--default').css('border-radius', '');
+                        $('.select2-container--default').css('border', '');
+                    }
+                }
+            });
+
+            $('#AssessmentChallenges').on('invalid change', function (e) {
+                e.preventDefault();
+
+                serverSideError.html('');
+                var Id = this.id;
+                if (this.validity.valueMissing) {
+                    $('#error' + Id).html("Please mention your skill assessment challenges.");
+                    $('#' + Id).addClass('error-input-border-red');
+                }
+                else {
+                    $('#error' + Id).html('');
+                    $('#' + Id).removeClass('error-input-border-red');
+                }
+            });
+        });
+
+        (function ($) {
+            $(function () {
+                var isoCountries = [
+
+                    { id: 'US', text: 'United States' },
+                    { id: 'GB', text: 'United Kingdom' },
+                    { id: 'CA', text: 'Canada' },
+                    { id: 'AF', text: 'Afghanistan' },
+                    { id: 'AX', text: 'Aland Islands' },
+                    { id: 'AL', text: 'Albania' },
+                    { id: 'DZ', text: 'Algeria' },
+                    { id: 'AS', text: 'American Samoa' },
+                    { id: 'AD', text: 'Andorra' },
+                    { id: 'AO', text: 'Angola' },
+                    { id: 'AI', text: 'Anguilla' },
+                    { id: 'AQ', text: 'Antarctica' },
+                    { id: 'AG', text: 'Antigua And Barbuda' },
+                    { id: 'AR', text: 'Argentina' },
+                    { id: 'AM', text: 'Armenia' },
+                    { id: 'AW', text: 'Aruba' },
+                    { id: 'AU', text: 'Australia' },
+                    { id: 'AT', text: 'Austria' },
+                    { id: 'AZ', text: 'Azerbaijan' },
+                    { id: 'BS', text: 'Bahamas' },
+                    { id: 'BH', text: 'Bahrain' },
+                    { id: 'BD', text: 'Bangladesh' },
+                    { id: 'BB', text: 'Barbados' },
+                    { id: 'BY', text: 'Belarus' },
+                    { id: 'BE', text: 'Belgium' },
+                    { id: 'BZ', text: 'Belize' },
+                    { id: 'BJ', text: 'Benin' },
+                    { id: 'BM', text: 'Bermuda' },
+                    { id: 'BT', text: 'Bhutan' },
+                    { id: 'BO', text: 'Bolivia' },
+                    { id: 'BA', text: 'Bosnia And Herzegovina' },
+                    { id: 'BW', text: 'Botswana' },
+                    { id: 'BV', text: 'Bouvet Island' },
+                    { id: 'BR', text: 'Brazil' },
+                    { id: 'IO', text: 'British Indian Ocean Territory' },
+                    { id: 'BN', text: 'Brunei Darussalam' },
+                    { id: 'BG', text: 'Bulgaria' },
+                    { id: 'BF', text: 'Burkina Faso' },
+                    { id: 'BI', text: 'Burundi' },
+                    { id: 'KH', text: 'Cambodia' },
+                    { id: 'CM', text: 'Cameroon' },
+                    { id: 'CV', text: 'Cape Verde' },
+                    { id: 'KY', text: 'Cayman Islands' },
+                    { id: 'CF', text: 'Central African Republic' },
+                    { id: 'TD', text: 'Chad' },
+                    { id: 'CL', text: 'Chile' },
+                    { id: 'CN', text: 'China' },
+                    { id: 'CX', text: 'Christmas Island' },
+                    { id: 'CC', text: 'Cocos (Keeling) Islands' },
+                    { id: 'CO', text: 'Colombia' },
+                    { id: 'KM', text: 'Comoros' },
+                    { id: 'CG', text: 'Congo' },
+                    { id: 'CD', text: 'Congo, Democratic Republic of the Congo' },
+                    { id: 'CK', text: 'Cook Islands' },
+                    { id: 'CR', text: 'Costa Rica' },
+                    { id: 'CI', text: 'Cote D\'Ivoire' },
+                    { id: 'HR', text: 'Croatia' },
+                    { id: 'CU', text: 'Cuba' },
+                    { id: 'CY', text: 'Cyprus' },
+                    { id: 'CZ', text: 'Czech Republic' },
+                    { id: 'DK', text: 'Denmark' },
+                    { id: 'DJ', text: 'Djibouti' },
+                    { id: 'DM', text: 'Dominica' },
+                    { id: 'DO', text: 'Dominican Republic' },
+                    { id: 'EC', text: 'Ecuador' },
+                    { id: 'EG', text: 'Egypt' },
+                    { id: 'SV', text: 'El Salvador' },
+                    { id: 'GQ', text: 'Equatorial Guinea' },
+                    { id: 'ER', text: 'Eritrea' },
+                    { id: 'EE', text: 'Estonia' },
+                    { id: 'ET', text: 'Ethiopia' },
+                    { id: 'FK', text: 'Falkland Islands (Malvinas)' },
+                    { id: 'FO', text: 'Faroe Islands' },
+                    { id: 'FJ', text: 'Fiji' },
+                    { id: 'FI', text: 'Finland' },
+                    { id: 'FR', text: 'France' },
+                    { id: 'GF', text: 'French Guiana' },
+                    { id: 'PF', text: 'French Polynesia' },
+                    { id: 'TF', text: 'French Southern Territories' },
+                    { id: 'GA', text: 'Gabon' },
+                    { id: 'GM', text: 'Gambia' },
+                    { id: 'GE', text: 'Georgia' },
+                    { id: 'DE', text: 'Germany' },
+                    { id: 'GH', text: 'Ghana' },
+                    { id: 'GI', text: 'Gibraltar' },
+                    { id: 'GR', text: 'Greece' },
+                    { id: 'GL', text: 'Greenland' },
+                    { id: 'GD', text: 'Grenada' },
+                    { id: 'GP', text: 'Guadeloupe' },
+                    { id: 'GU', text: 'Guam' },
+                    { id: 'GT', text: 'Guatemala' },
+                    { id: 'GG', text: 'Guernsey' },
+                    { id: 'GN', text: 'Guinea' },
+                    { id: 'GW', text: 'Guinea-Bissau' },
+                    { id: 'GY', text: 'Guyana' },
+                    { id: 'HT', text: 'Haiti' },
+                    { id: 'HM', text: 'Heard Island & Mcdonald Islands' },
+                    { id: 'VA', text: 'Holy See (Vatican City State)' },
+                    { id: 'HN', text: 'Honduras' },
+                    { id: 'HK', text: 'Hong Kong' },
+                    { id: 'HU', text: 'Hungary' },
+                    { id: 'IS', text: 'Iceland' },
+                    { id: 'IN', text: 'India' },
+                    { id: 'ID', text: 'Indonesia' },
+                    { id: 'IR', text: 'Iran, Islamic Republic of Iran' },
+                    { id: 'IQ', text: 'Iraq' },
+                    { id: 'IE', text: 'Ireland' },
+                    { id: 'IM', text: 'Isle Of Man' },
+                    { id: 'IL', text: 'Israel' },
+                    { id: 'IT', text: 'Italy' },
+                    { id: 'JM', text: 'Jamaica' },
+                    { id: 'JP', text: 'Japan' },
+                    { id: 'JE', text: 'Jersey' },
+                    { id: 'JO', text: 'Jordan' },
+                    { id: 'KZ', text: 'Kazakhstan' },
+                    { id: 'KE', text: 'Kenya' },
+                    { id: 'KI', text: 'Kiribati' },
+                    { id: 'KR', text: 'Korea' },
+                    { id: 'KW', text: 'Kuwait' },
+                    { id: 'KG', text: 'Kyrgyzstan' },
+                    { id: 'LA', text: 'Lao People\'s Democratic Republic' },
+                    { id: 'LV', text: 'Latvia' },
+                    { id: 'LB', text: 'Lebanon' },
+                    { id: 'LS', text: 'Lesotho' },
+                    { id: 'LR', text: 'Liberia' },
+                    { id: 'LY', text: 'Libyan Arab Jamahiriya' },
+                    { id: 'LI', text: 'Liechtenstein' },
+                    { id: 'LT', text: 'Lithuania' },
+                    { id: 'LU', text: 'Luxembourg' },
+                    { id: 'MO', text: 'Macao' },
+                    { id: 'MK', text: 'Macedonia' },
+                    { id: 'MG', text: 'Madagascar' },
+                    { id: 'MW', text: 'Malawi' },
+                    { id: 'MY', text: 'Malaysia' },
+                    { id: 'MV', text: 'Maldives' },
+                    { id: 'ML', text: 'Mali' },
+                    { id: 'MT', text: 'Malta' },
+                    { id: 'MH', text: 'Marshall Islands' },
+                    { id: 'MQ', text: 'Martinique' },
+                    { id: 'MR', text: 'Mauritania' },
+                    { id: 'MU', text: 'Mauritius' },
+                    { id: 'YT', text: 'Mayotte' },
+                    { id: 'MX', text: 'Mexico' },
+                    { id: 'FM', text: 'Micronesia, Federated States of Micronesia' },
+                    { id: 'MD', text: 'Moldova' },
+                    { id: 'MC', text: 'Monaco' },
+                    { id: 'MN', text: 'Mongolia' },
+                    { id: 'ME', text: 'Montenegro' },
+                    { id: 'MS', text: 'Montserrat' },
+                    { id: 'MA', text: 'Morocco' },
+                    { id: 'MZ', text: 'Mozambique' },
+                    { id: 'MM', text: 'Myanmar' },
+                    { id: 'NA', text: 'Namibia' },
+                    { id: 'NR', text: 'Nauru' },
+                    { id: 'NP', text: 'Nepal' },
+                    { id: 'NL', text: 'Netherlands' },
+                    { id: 'AN', text: 'Netherlands Antilles' },
+                    { id: 'NC', text: 'New Caledonia' },
+                    { id: 'NZ', text: 'New Zealand' },
+                    { id: 'NI', text: 'Nicaragua' },
+                    { id: 'NE', text: 'Niger' },
+                    { id: 'NG', text: 'Nigeria' },
+                    { id: 'NU', text: 'Niue' },
+                    { id: 'NF', text: 'Norfolk Island' },
+                    { id: 'MP', text: 'Northern Mariana Islands' },
+                    { id: 'NO', text: 'Norway' },
+                    { id: 'OM', text: 'Oman' },
+                    { id: 'PK', text: 'Pakistan' },
+                    { id: 'PW', text: 'Palau' },
+                    { id: 'PS', text: 'Palestinian Territory, Occupied Palestinian Territories' },
+                    { id: 'PA', text: 'Panama' },
+                    { id: 'PG', text: 'Papua New Guinea' },
+                    { id: 'PY', text: 'Paraguay' },
+                    { id: 'PE', text: 'Peru' },
+                    { id: 'PH', text: 'Philippines' },
+                    { id: 'PN', text: 'Pitcairn' },
+                    { id: 'PL', text: 'Poland' },
+                    { id: 'PT', text: 'Portugal' },
+                    { id: 'PR', text: 'Puerto Rico' },
+                    { id: 'QA', text: 'Qatar' },
+                    { id: 'RE', text: 'Reunion' },
+                    { id: 'RO', text: 'Romania' },
+                    { id: 'RU', text: 'Russian Federation' },
+                    { id: 'RW', text: 'Rwanda' },
+                    { id: 'BL', text: 'Saint Barthelemy' },
+                    { id: 'SH', text: 'Saint Helena' },
+                    { id: 'KN', text: 'Saint Kitts And Nevis' },
+                    { id: 'LC', text: 'Saint Lucia' },
+                    { id: 'MF', text: 'Saint Martin' },
+                    { id: 'PM', text: 'Saint Pierre And Miquelon' },
+                    { id: 'VC', text: 'Saint Vincent And Grenadines' },
+                    { id: 'WS', text: 'Samoa' },
+                    { id: 'SM', text: 'San Marino' },
+                    { id: 'ST', text: 'Sao Tome And Principe' },
+                    { id: 'SA', text: 'Saudi Arabia' },
+                    { id: 'SN', text: 'Senegal' },
+                    { id: 'RS', text: 'Serbia' },
+                    { id: 'SC', text: 'Seychelles' },
+                    { id: 'SL', text: 'Sierra Leone' },
+                    { id: 'SG', text: 'Singapore' },
+                    { id: 'SK', text: 'Slovakia' },
+                    { id: 'SI', text: 'Slovenia' },
+                    { id: 'SB', text: 'Solomon Islands' },
+                    { id: 'SO', text: 'Somalia' },
+                    { id: 'ZA', text: 'South Africa' },
+                    { id: 'GS', text: 'South Georgia And Sandwich Isl.' },
+                    { id: 'ES', text: 'Spain' },
+                    { id: 'LK', text: 'Sri Lanka' },
+                    { id: 'SD', text: 'Sudan' },
+                    { id: 'SR', text: 'Suriname' },
+                    { id: 'SJ', text: 'Svalbard And Jan Mayen' },
+                    { id: 'SZ', text: 'Swaziland' },
+                    { id: 'SE', text: 'Sweden' },
+                    { id: 'CH', text: 'Switzerland' },
+                    { id: 'SY', text: 'Syrian Arab Republic' },
+                    { id: 'TW', text: 'Taiwan' },
+                    { id: 'TJ', text: 'Tajikistan' },
+                    { id: 'TZ', text: 'Tanzania' },
+                    { id: 'TH', text: 'Thailand' },
+                    { id: 'TL', text: 'Timor-Leste' },
+                    { id: 'TG', text: 'Togo' },
+                    { id: 'TK', text: 'Tokelau' },
+                    { id: 'TO', text: 'Tonga' },
+                    { id: 'TT', text: 'Trinidad And Tobago' },
+                    { id: 'TN', text: 'Tunisia' },
+                    { id: 'TR', text: 'Turkey' },
+                    { id: 'TM', text: 'Turkmenistan' },
+                    { id: 'TC', text: 'Turks And Caicos Islands' },
+                    { id: 'TV', text: 'Tuvalu' },
+                    { id: 'UG', text: 'Uganda' },
+                    { id: 'UA', text: 'Ukraine' },
+                    { id: 'AE', text: 'United Arab Emirates' },
+                    { id: 'UM', text: 'United States Outlying Islands' },
+                    { id: 'UY', text: 'Uruguay' },
+                    { id: 'UZ', text: 'Uzbekistan' },
+                    { id: 'VU', text: 'Vanuatu' },
+                    { id: 'VE', text: 'Venezuela' },
+                    { id: 'VN', text: 'Viet Nam' },
+                    { id: 'VG', text: 'Virgin Islands, British' },
+                    { id: 'VI', text: 'Virgin Islands, U.S.' },
+                    { id: 'WF', text: 'Wallis And Futuna' },
+                    { id: 'EH', text: 'Western Sahara' },
+                    { id: 'YE', text: 'Yemen' },
+                    { id: 'ZM', text: 'Zambia' },
+                    { id: 'ZW', text: 'Zimbabwe' }
+                ];
+
+                function formatCountry(country) {
+                    if (!country.id) {
+                        return country.text;
+                    }
+                    var $country = $(
+                        '<span class="flag-icon flag-icon-' + country.id.toLowerCase() + ' flag-icon-squared"></span>' +
+                        '<span class="flag-text">' + country.text + "</span>"
+                    );
+                    return $country;
+                };
+
+                $("[name='country']").select2({
+                    placeholder: "Select Your Country*",
+                    templateResult: formatCountry,
+                    data: isoCountries
+                });
+            });
+        })(jQuery);
+    </script>
+    <!--G2Crowd Tracking Code -->
+    <script>
+        (function (c, p, d, u, id, i) {
+            id = ''; // Optional Custom ID for user in your system
+            u = 'https://tracking.g2crowd.com/attribution_tracking/conversions/' + c + '.js?p=' + encodeURI(p) + '&e=' + id;
+            i = document.createElement('script');
+            i.type = 'application/javascript';
+            i.src = u;
+            d.getElementsByTagName('head')[0].appendChild(i);
+        }("1360", document.location.href, document));
+    </script>
+
+                        <div class="col-md-6 col-lg-6">
+                            <form id="frmGetADemo">
+                                <div class="demo-landing-form">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <p style="font-style:normal; font-weight: 600; line-height: normal;
+                                                font-size: 16px; color: #03363d; text-align:center; font-family: HelveticaNeueLTStd-Th_1;">
+                                                 Our experts can help you find the right solution.
+                                                 <br>Fill out the form below.
+                                                  </p>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group custom-form-group">
+                                                
+                                                <div class="form-control-wrap">
+                                                    <input type="text" class="form-control " data-error="First Name" id="FirstName" name="firstName" placeholder="First Name*" required>
+                                                    <p id="errorFirstName" class="error-msg"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group custom-form-group">
+                                                
+                                                <div class="form-control-wrap">
+                                                    <input type="text" class="form-control" data-error="Last Name" id="LastName" name="lastName" placeholder="Last Name">
+                                                    <p id="errorLastName" class="error-msg"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group custom-form-group">
+                                                
+                                                <div class="form-control-wrap">
+                                                    <input type="email" class="form-control" id="WorkEmail" pattern="^([a-zA-Z0-9_\.\-])+@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$" name="email" placeholder="Work Email*" required>
+                                                    <p id="errorWorkEmail" class="error-msg"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group custom-form-group">
+                                                
+                                                <div class="form-control-wrap">
+                                                    <input type="tel" class="form-control" id="Phone" name="phoneNumber" placeholder="Phone Number*" required>
+                                                    <p id="errorPhone" class="error-msg"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+
+                                        <div class="col-lg-6">
+                                            <div class="form-group custom-form-group">
+                                                
+                                                <div class="form-control-wrap">
+                                                    <select class="form-control" style="position:absolute !important" id="Country" name="country" data-error="Company Size" required>
+                                                        <option value="">Select Your Country*</option>
+                                                    </select>
+                                                    <p id="errorCountry" class="error-msg"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group custom-form-group">
+                                                
+                                                <div class="form-control-wrap">
+                                                    <select class="select-default" data-error="Job Title" id="JobTitle" name="jobTitle" title="Job Title*" required>
+                                                            <option value="">Job Title*</option>
+                                                                <option value="RecuiterHrManager">Recruiter / HR Manager</option>
+                                                                <option value="HiringManager">Hiring Manager</option>
+                                                                <option value="Director">Director / VP</option>
+                                                                <option value="CXO">CxO</option>
+                                                                <option value="JobSeekerStudent">I am a Job Seeker / Student</option>
+                                                                <option value="Other">Other</option>
+
+                                                    </select>
+
+                                                    <p id="errorJobTitle" class="error-msg"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group custom-form-group mt10">
+                                                <div class="form-control-wrap">
+                                                    <textarea class="form-control" id="AssessmentChallenges" placeholder="What are your skill assessment challenges?" spellcheck="false"></textarea>
+
+                                                    <p id="errorAssessmentChallenges" class="error-msg"></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 margin-top-1rem">
+                                            <p id="serverError" class="error-msg"></p>
+                                            <input style="max-width:100%;" type="submit" id="frmRequestSubmit" class="bttn bttn-secondary" value="REQUEST A DEMO">
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <p class="margin-top-20 margin-bottom-0" style="font-size:12px;">By clicking on "REQUEST A DEMO" you acknowledge having read our <a href="/PrivacyPolicy">Privacy Policy</a> & <a href="/TermsOfServices">Terms Of Service</a>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="demo-customers-list d-block d-md-none">
+                                <label class="margin-bottom-10"><b>Trusted By</b></label>
+                                <ul>
+                                    <li>
+                                        <img src="/Content/images/request-demo/adp.png" alt="ADP-Interview Mocha" />
+                                    </li>
+                                    <li>
+                                        <img src="/Content/images/request-demo/capgemini.png" alt="Capgemini-Interview Mocha" />
+                                    </li>
+                                    <li>
+                                        <img src="/Content/images/request-demo/avaya.png" alt="Credit-suisse-Interview Mocha" />
+                                    </li>
+                                    <li>
+                                        <img src="/Content/images/request-demo/ericsson.png" alt="Ericsson-Interview Mocha" />
+                                    </li>
+                                    <li>
+                                        <img src="/Content/images/request-demo/fujitsu.png" alt="fujitsu-Interview Mocha" />
+                                    </li>
+                                    <li>
+                                        <img src="/Content/images/request-demo/gartner.png" alt="Gartner-Interview Mocha" />
+                                    </li>
+                                </ul>
+                            </div>
+                            <p class="d-block d-md-none">
+                                <b>Understand how Mocha Skill Testing Solution can help your organization:</b>
+                            </p>
+                            <ul class="demo-li margin-bottom-1rem d-block d-md-none">
+                                <li>Assess quickly using 1500+ pre-built skill tests, customized tests & tailor-made tests</li>
+                                <li>Administer tests effectively using advanced cheating prevention & other techniques</li>
+                                <li>Build great candidate experience during assessments</li>
+                                <li>Drive Talent Acquisition through intelligent reports & analytics</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/Scripts/jq/jquery-1.12.4.min.js"></script>
+    <script src="/Scripts/bootstrap/bootstrap.min.js"></script>
+    <script src="/Scripts/widgets/owl/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
+    
+    <script>
+        $(function () {
+            var serverSideError = $("#serverError");
+            $("#frmGetADemo").on("submit", function (e) {
+
+                e.preventDefault();
+                //if ($.trim($("#AssessmentChallenges").val()) === "") {
+                //    $("#errorAssessmentChallenges").html("This field is required.");
+                //    $("#AssessmentChallenges").addClass('error-input-border-red');
+                //    return false;
+                //} else {
+                //    $("#errorAssessmentChallenges").html("");
+                //    $("#AssessmentChallenges").removeClass('error-input-border-red');
+                //}
+                $("#frmGetADemoSubmit").prop("disabled", true);
+                serverSideError.addClass('process-messge').html('Processing...');
+                var GetADemo = {};
+
+                GetADemo.FirstName = $.trim($("#FirstName").val());
+                GetADemo.LastName = $.trim($("#LastName").val());
+                GetADemo.EmailId = $.trim($("#WorkEmail").val());
+                GetADemo.PhoneNumber = $.trim($("#Phone").val());
+                //GetADemo.CompanyName = $.trim($("#CompanyName").val());
+                //GetADemo.CompanySize = $.trim($("#CompanySize").val());
+                GetADemo.JobTitle = $.trim($("#JobTitle").val());
+                GetADemo.Country = $.trim($("#select2-Country-container").text());
+                GetADemo.CustomerChallenges = $.trim($("#AssessmentChallenges").val());
+
+               // captureSetup();
+
+                $.ajax({
+                    type: "POST",
+                    url: "/GetADemo/Register",
+                    data: JSON.stringify(GetADemo),
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (data) {
+
+                        $('#frmGetADemoSubmit').prop('disabled', false);
+                        if (data === 0) {
+                            serverSideError.removeClass('process-messge');
+                            serverSideError.html('An error occured. Please try again.');
+                        }
+                        else if (data.ErrorId === 2) {
+                            serverSideError.removeClass('process-messge');
+                            serverSideError.html('');
+                            //serverSideError.html('We need your work e-mail. Do not worry, we don’t spam.');
+                            $('#errorWorkEmail').html('We need your work e-mail. Do not worry, we don’t spam.');
+                        }
+                        else if (data.ErrorId === 1) {
+                            $('#errorWorkEmail').html('');
+                            window.location.href = "/schedule-demo-thank-you?Name=" + data.FirstName + "&Email=" + data.EmailId;
+
+                        }
+                        if (data === 3) {
+                            serverSideError.removeClass('process-messge');
+                            serverSideError.html('Please tick on "I\'m not a robot"');
+                        }
+                    }, error: function (xhr) {
+                        $('#frmGetADemoSubmit').prop('disabled', false);
+                        serverSideError.removeClass('process-messge');
+                        serverSideError.html('An error occured. Please try again.');
+                    }
+                });
+            });//form submit end
+
+            //text box validation
+            $('input[type=text]').on('invalid change', function (e) {
+                e.preventDefault();
+
+                serverSideError.html('');
+                var Id = this.id;
+                if (Id == "FirstName") {
+                    if ($("#FirstName").val() == "") {
+                        $("#errorFirstName").html("First Name is required.");
+                        $("#FirstName").addClass('error-input-border-red');
+
+                    } else {
+                        $("#errorFirstName").html("");
+                        $("#FirstName").removeClass('error-input-border-red');
+                    }
+                } else {
+                    if (this.validity.valueMissing) {
+                        $('#error' + Id).html($(this).attr('data-error') + ' is required.');
+                        $('#' + Id).addClass('error-input-border-red');
+                    }
+                    else {
+                        $('#error' + Id).html('');
+                        $('#' + Id).removeClass('error-input-border-red');
+                    }
+                }
+            });
+
+            //email validation
+            $('input[type=email]').on('invalid change', function (e) {
+                e.preventDefault();
+                serverSideError.html('');
+                var Id = this.id;
+
+                if (this.validity.valueMissing) {
+                    $('#error' + Id).html('Work Email is required.');
+                    $('#' + Id).addClass('error-input-border-red');
+                }
+                else if (this.validity.typeMismatch) {
+                    $('#error' + Id).html('Enter a valid email address.');
+                    $('#' + Id).addClass('error-input-border-red');
+                }
+                else if (this.validity.patternMismatch) {
+                    $('#error' + Id).html('Enter a valid email address.');
+                    $('#' + Id).addClass('error-input-border-red');
+                }
+                else {
+                    $('#error' + Id).html('');
+                    $('#' + Id).removeClass('error-input-border-red');
+                }
+            });
+
+            //phone validation
+            $('input[type=tel]').on('invalid change', function (e) {
+                e.preventDefault();
+
+                serverSideError.html('');
+                var Id = this.id;
+                if (this.validity.valueMissing) {
+                    $('#error' + Id).html('Phone Number is required.');
+                    $('#' + Id).addClass('error-input-border-red');
+                }
+                else {
+                    $('#error' + Id).html('');
+                    $('#' + Id).removeClass('error-input-border-red');
+                }
+            });
+
+            //select validation
+            $('select').on('invalid change', function (e) {
+
+                e.preventDefault();
+                serverSideError.html('');
+                var Id = this.id;
+                if (this.validity.valueMissing) {
+                    // $('#error' + Id).html('This field is required');
+                    $('#' + Id).addClass('error-input-border-red');
+                    if (Id == "Country") {
+                        $('#error' + Id).html('Country is required.');
+                        $('.select2-container--default').css('border-radius', '5px');
+                        $('.select2-container--default').css('border', '1px solid red');
+                    }
+                    else if (Id == "CompanySize") {
+                        $('#error' + Id).html('Company Size is required.');
+                    }
+                    else {
+                        $('#error' + Id).html('Job Title is required.');
+                    }
+                }
+                else {
+                    $('#error' + Id).html('');
+                    $('#' + Id).removeClass('error-input-border-red');
+                    if (Id == "Country") {
+
+                        $('.select2-container--default').css('border-radius', '');
+                        $('.select2-container--default').css('border', '');
+                    }
+                }
+            });
+
+            $('#AssessmentChallenges').on('invalid change', function (e) {
+                e.preventDefault();
+
+                serverSideError.html('');
+                var Id = this.id;
+                if (this.validity.valueMissing) {
+                    $('#error' + Id).html("Please mention your skill assessment challenges.");
+                    $('#' + Id).addClass('error-input-border-red');
+                }
+                else {
+                    $('#error' + Id).html('');
+                    $('#' + Id).removeClass('error-input-border-red');
+                }
+            });
+        });
+
+        (function ($) {
+            $(function () {
+                var isoCountries = [
+
+                    { id: 'US', text: 'United States' },
+                    { id: 'GB', text: 'United Kingdom' },
+                    { id: 'CA', text: 'Canada' },
+                    { id: 'AF', text: 'Afghanistan' },
+                    { id: 'AX', text: 'Aland Islands' },
+                    { id: 'AL', text: 'Albania' },
+                    { id: 'DZ', text: 'Algeria' },
+                    { id: 'AS', text: 'American Samoa' },
+                    { id: 'AD', text: 'Andorra' },
+                    { id: 'AO', text: 'Angola' },
+                    { id: 'AI', text: 'Anguilla' },
+                    { id: 'AQ', text: 'Antarctica' },
+                    { id: 'AG', text: 'Antigua And Barbuda' },
+                    { id: 'AR', text: 'Argentina' },
+                    { id: 'AM', text: 'Armenia' },
+                    { id: 'AW', text: 'Aruba' },
+                    { id: 'AU', text: 'Australia' },
+                    { id: 'AT', text: 'Austria' },
+                    { id: 'AZ', text: 'Azerbaijan' },
+                    { id: 'BS', text: 'Bahamas' },
+                    { id: 'BH', text: 'Bahrain' },
+                    { id: 'BD', text: 'Bangladesh' },
+                    { id: 'BB', text: 'Barbados' },
+                    { id: 'BY', text: 'Belarus' },
+                    { id: 'BE', text: 'Belgium' },
+                    { id: 'BZ', text: 'Belize' },
+                    { id: 'BJ', text: 'Benin' },
+                    { id: 'BM', text: 'Bermuda' },
+                    { id: 'BT', text: 'Bhutan' },
+                    { id: 'BO', text: 'Bolivia' },
+                    { id: 'BA', text: 'Bosnia And Herzegovina' },
+                    { id: 'BW', text: 'Botswana' },
+                    { id: 'BV', text: 'Bouvet Island' },
+                    { id: 'BR', text: 'Brazil' },
+                    { id: 'IO', text: 'British Indian Ocean Territory' },
+                    { id: 'BN', text: 'Brunei Darussalam' },
+                    { id: 'BG', text: 'Bulgaria' },
+                    { id: 'BF', text: 'Burkina Faso' },
+                    { id: 'BI', text: 'Burundi' },
+                    { id: 'KH', text: 'Cambodia' },
+                    { id: 'CM', text: 'Cameroon' },
+                    { id: 'CV', text: 'Cape Verde' },
+                    { id: 'KY', text: 'Cayman Islands' },
+                    { id: 'CF', text: 'Central African Republic' },
+                    { id: 'TD', text: 'Chad' },
+                    { id: 'CL', text: 'Chile' },
+                    { id: 'CN', text: 'China' },
+                    { id: 'CX', text: 'Christmas Island' },
+                    { id: 'CC', text: 'Cocos (Keeling) Islands' },
+                    { id: 'CO', text: 'Colombia' },
+                    { id: 'KM', text: 'Comoros' },
+                    { id: 'CG', text: 'Congo' },
+                    { id: 'CD', text: 'Congo, Democratic Republic of the Congo' },
+                    { id: 'CK', text: 'Cook Islands' },
+                    { id: 'CR', text: 'Costa Rica' },
+                    { id: 'CI', text: 'Cote D\'Ivoire' },
+                    { id: 'HR', text: 'Croatia' },
+                    { id: 'CU', text: 'Cuba' },
+                    { id: 'CY', text: 'Cyprus' },
+                    { id: 'CZ', text: 'Czech Republic' },
+                    { id: 'DK', text: 'Denmark' },
+                    { id: 'DJ', text: 'Djibouti' },
+                    { id: 'DM', text: 'Dominica' },
+                    { id: 'DO', text: 'Dominican Republic' },
+                    { id: 'EC', text: 'Ecuador' },
+                    { id: 'EG', text: 'Egypt' },
+                    { id: 'SV', text: 'El Salvador' },
+                    { id: 'GQ', text: 'Equatorial Guinea' },
+                    { id: 'ER', text: 'Eritrea' },
+                    { id: 'EE', text: 'Estonia' },
+                    { id: 'ET', text: 'Ethiopia' },
+                    { id: 'FK', text: 'Falkland Islands (Malvinas)' },
+                    { id: 'FO', text: 'Faroe Islands' },
+                    { id: 'FJ', text: 'Fiji' },
+                    { id: 'FI', text: 'Finland' },
+                    { id: 'FR', text: 'France' },
+                    { id: 'GF', text: 'French Guiana' },
+                    { id: 'PF', text: 'French Polynesia' },
+                    { id: 'TF', text: 'French Southern Territories' },
+                    { id: 'GA', text: 'Gabon' },
+                    { id: 'GM', text: 'Gambia' },
+                    { id: 'GE', text: 'Georgia' },
+                    { id: 'DE', text: 'Germany' },
+                    { id: 'GH', text: 'Ghana' },
+                    { id: 'GI', text: 'Gibraltar' },
+                    { id: 'GR', text: 'Greece' },
+                    { id: 'GL', text: 'Greenland' },
+                    { id: 'GD', text: 'Grenada' },
+                    { id: 'GP', text: 'Guadeloupe' },
+                    { id: 'GU', text: 'Guam' },
+                    { id: 'GT', text: 'Guatemala' },
+                    { id: 'GG', text: 'Guernsey' },
+                    { id: 'GN', text: 'Guinea' },
+                    { id: 'GW', text: 'Guinea-Bissau' },
+                    { id: 'GY', text: 'Guyana' },
+                    { id: 'HT', text: 'Haiti' },
+                    { id: 'HM', text: 'Heard Island & Mcdonald Islands' },
+                    { id: 'VA', text: 'Holy See (Vatican City State)' },
+                    { id: 'HN', text: 'Honduras' },
+                    { id: 'HK', text: 'Hong Kong' },
+                    { id: 'HU', text: 'Hungary' },
+                    { id: 'IS', text: 'Iceland' },
+                    { id: 'IN', text: 'India' },
+                    { id: 'ID', text: 'Indonesia' },
+                    { id: 'IR', text: 'Iran, Islamic Republic of Iran' },
+                    { id: 'IQ', text: 'Iraq' },
+                    { id: 'IE', text: 'Ireland' },
+                    { id: 'IM', text: 'Isle Of Man' },
+                    { id: 'IL', text: 'Israel' },
+                    { id: 'IT', text: 'Italy' },
+                    { id: 'JM', text: 'Jamaica' },
+                    { id: 'JP', text: 'Japan' },
+                    { id: 'JE', text: 'Jersey' },
+                    { id: 'JO', text: 'Jordan' },
+                    { id: 'KZ', text: 'Kazakhstan' },
+                    { id: 'KE', text: 'Kenya' },
+                    { id: 'KI', text: 'Kiribati' },
+                    { id: 'KR', text: 'Korea' },
+                    { id: 'KW', text: 'Kuwait' },
+                    { id: 'KG', text: 'Kyrgyzstan' },
+                    { id: 'LA', text: 'Lao People\'s Democratic Republic' },
+                    { id: 'LV', text: 'Latvia' },
+                    { id: 'LB', text: 'Lebanon' },
+                    { id: 'LS', text: 'Lesotho' },
+                    { id: 'LR', text: 'Liberia' },
+                    { id: 'LY', text: 'Libyan Arab Jamahiriya' },
+                    { id: 'LI', text: 'Liechtenstein' },
+                    { id: 'LT', text: 'Lithuania' },
+                    { id: 'LU', text: 'Luxembourg' },
+                    { id: 'MO', text: 'Macao' },
+                    { id: 'MK', text: 'Macedonia' },
+                    { id: 'MG', text: 'Madagascar' },
+                    { id: 'MW', text: 'Malawi' },
+                    { id: 'MY', text: 'Malaysia' },
+                    { id: 'MV', text: 'Maldives' },
+                    { id: 'ML', text: 'Mali' },
+                    { id: 'MT', text: 'Malta' },
+                    { id: 'MH', text: 'Marshall Islands' },
+                    { id: 'MQ', text: 'Martinique' },
+                    { id: 'MR', text: 'Mauritania' },
+                    { id: 'MU', text: 'Mauritius' },
+                    { id: 'YT', text: 'Mayotte' },
+                    { id: 'MX', text: 'Mexico' },
+                    { id: 'FM', text: 'Micronesia, Federated States of Micronesia' },
+                    { id: 'MD', text: 'Moldova' },
+                    { id: 'MC', text: 'Monaco' },
+                    { id: 'MN', text: 'Mongolia' },
+                    { id: 'ME', text: 'Montenegro' },
+                    { id: 'MS', text: 'Montserrat' },
+                    { id: 'MA', text: 'Morocco' },
+                    { id: 'MZ', text: 'Mozambique' },
+                    { id: 'MM', text: 'Myanmar' },
+                    { id: 'NA', text: 'Namibia' },
+                    { id: 'NR', text: 'Nauru' },
+                    { id: 'NP', text: 'Nepal' },
+                    { id: 'NL', text: 'Netherlands' },
+                    { id: 'AN', text: 'Netherlands Antilles' },
+                    { id: 'NC', text: 'New Caledonia' },
+                    { id: 'NZ', text: 'New Zealand' },
+                    { id: 'NI', text: 'Nicaragua' },
+                    { id: 'NE', text: 'Niger' },
+                    { id: 'NG', text: 'Nigeria' },
+                    { id: 'NU', text: 'Niue' },
+                    { id: 'NF', text: 'Norfolk Island' },
+                    { id: 'MP', text: 'Northern Mariana Islands' },
+                    { id: 'NO', text: 'Norway' },
+                    { id: 'OM', text: 'Oman' },
+                    { id: 'PK', text: 'Pakistan' },
+                    { id: 'PW', text: 'Palau' },
+                    { id: 'PS', text: 'Palestinian Territory, Occupied Palestinian Territories' },
+                    { id: 'PA', text: 'Panama' },
+                    { id: 'PG', text: 'Papua New Guinea' },
+                    { id: 'PY', text: 'Paraguay' },
+                    { id: 'PE', text: 'Peru' },
+                    { id: 'PH', text: 'Philippines' },
+                    { id: 'PN', text: 'Pitcairn' },
+                    { id: 'PL', text: 'Poland' },
+                    { id: 'PT', text: 'Portugal' },
+                    { id: 'PR', text: 'Puerto Rico' },
+                    { id: 'QA', text: 'Qatar' },
+                    { id: 'RE', text: 'Reunion' },
+                    { id: 'RO', text: 'Romania' },
+                    { id: 'RU', text: 'Russian Federation' },
+                    { id: 'RW', text: 'Rwanda' },
+                    { id: 'BL', text: 'Saint Barthelemy' },
+                    { id: 'SH', text: 'Saint Helena' },
+                    { id: 'KN', text: 'Saint Kitts And Nevis' },
+                    { id: 'LC', text: 'Saint Lucia' },
+                    { id: 'MF', text: 'Saint Martin' },
+                    { id: 'PM', text: 'Saint Pierre And Miquelon' },
+                    { id: 'VC', text: 'Saint Vincent And Grenadines' },
+                    { id: 'WS', text: 'Samoa' },
+                    { id: 'SM', text: 'San Marino' },
+                    { id: 'ST', text: 'Sao Tome And Principe' },
+                    { id: 'SA', text: 'Saudi Arabia' },
+                    { id: 'SN', text: 'Senegal' },
+                    { id: 'RS', text: 'Serbia' },
+                    { id: 'SC', text: 'Seychelles' },
+                    { id: 'SL', text: 'Sierra Leone' },
+                    { id: 'SG', text: 'Singapore' },
+                    { id: 'SK', text: 'Slovakia' },
+                    { id: 'SI', text: 'Slovenia' },
+                    { id: 'SB', text: 'Solomon Islands' },
+                    { id: 'SO', text: 'Somalia' },
+                    { id: 'ZA', text: 'South Africa' },
+                    { id: 'GS', text: 'South Georgia And Sandwich Isl.' },
+                    { id: 'ES', text: 'Spain' },
+                    { id: 'LK', text: 'Sri Lanka' },
+                    { id: 'SD', text: 'Sudan' },
+                    { id: 'SR', text: 'Suriname' },
+                    { id: 'SJ', text: 'Svalbard And Jan Mayen' },
+                    { id: 'SZ', text: 'Swaziland' },
+                    { id: 'SE', text: 'Sweden' },
+                    { id: 'CH', text: 'Switzerland' },
+                    { id: 'SY', text: 'Syrian Arab Republic' },
+                    { id: 'TW', text: 'Taiwan' },
+                    { id: 'TJ', text: 'Tajikistan' },
+                    { id: 'TZ', text: 'Tanzania' },
+                    { id: 'TH', text: 'Thailand' },
+                    { id: 'TL', text: 'Timor-Leste' },
+                    { id: 'TG', text: 'Togo' },
+                    { id: 'TK', text: 'Tokelau' },
+                    { id: 'TO', text: 'Tonga' },
+                    { id: 'TT', text: 'Trinidad And Tobago' },
+                    { id: 'TN', text: 'Tunisia' },
+                    { id: 'TR', text: 'Turkey' },
+                    { id: 'TM', text: 'Turkmenistan' },
+                    { id: 'TC', text: 'Turks And Caicos Islands' },
+                    { id: 'TV', text: 'Tuvalu' },
+                    { id: 'UG', text: 'Uganda' },
+                    { id: 'UA', text: 'Ukraine' },
+                    { id: 'AE', text: 'United Arab Emirates' },
+                    { id: 'UM', text: 'United States Outlying Islands' },
+                    { id: 'UY', text: 'Uruguay' },
+                    { id: 'UZ', text: 'Uzbekistan' },
+                    { id: 'VU', text: 'Vanuatu' },
+                    { id: 'VE', text: 'Venezuela' },
+                    { id: 'VN', text: 'Viet Nam' },
+                    { id: 'VG', text: 'Virgin Islands, British' },
+                    { id: 'VI', text: 'Virgin Islands, U.S.' },
+                    { id: 'WF', text: 'Wallis And Futuna' },
+                    { id: 'EH', text: 'Western Sahara' },
+                    { id: 'YE', text: 'Yemen' },
+                    { id: 'ZM', text: 'Zambia' },
+                    { id: 'ZW', text: 'Zimbabwe' }
+                ];
+
+                function formatCountry(country) {
+                    if (!country.id) {
+                        return country.text;
+                    }
+                    var $country = $(
+                        '<span class="flag-icon flag-icon-' + country.id.toLowerCase() + ' flag-icon-squared"></span>' +
+                        '<span class="flag-text">' + country.text + "</span>"
+                    );
+                    return $country;
+                };
+
+                $("[name='country']").select2({
+                    placeholder: "Select Your Country*",
+                    templateResult: formatCountry,
+                    data: isoCountries
+                });
+            });
+        })(jQuery);
+    </script>
+    <!--G2Crowd Tracking Code -->
+    <script>
+        (function (c, p, d, u, id, i) {
+            id = ''; // Optional Custom ID for user in your system
+            u = 'https://tracking.g2crowd.com/attribution_tracking/conversions/' + c + '.js?p=' + encodeURI(p) + '&e=' + id;
+            i = document.createElement('script');
+            i.type = 'application/javascript';
+            i.src = u;
+            d.getElementsByTagName('head')[0].appendChild(i);
+        }("1360", document.location.href, document));
+    </script>
+    <!-- Linkedin Script -->
+    <script type="text/javascript">
+        _linkedin_data_partner_id = "209914";
+    </script>
+    <script type="text/javascript">
+        (function () {
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript"; b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })();
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=209914&fmt=gif" />
+    </noscript>
+    <!-- Linkedin Script end-->
+    <!-- Start of HubSpot Embed Code -->
+    <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/820873.js"></script>
+    <!-- End of HubSpot Embed Code -->
+    <!--Start of LinkedIn Insight Tag of Interview Mocha Account-->
+    <script type="text/javascript">
+        _linkedin_partner_id = "1709692";
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script>
+    <script type="text/javascript">
+        (function () {
+            var s = document.getElementsByTagName("script")[0];
+            var b = document.createElement("script");
+            b.type = "text/javascript"; b.async = true;
+            b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+            s.parentNode.insertBefore(b, s);
+        })();
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=1709692&fmt=gif" />
+    </noscript>
+    <!--End of LinkedIn Insight Tag of Interview Mocha Account-->
+</body>
+</html>
+
